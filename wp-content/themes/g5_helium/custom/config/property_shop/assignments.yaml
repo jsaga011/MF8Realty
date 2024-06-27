@@ -1,0 +1,15 @@
+context: {  }
+menu: {  }
+language: {  }
+post: {  }
+taxonomy: {  }
+archive: {  }
+woocommerce:
+  -
+    is_shop: true
+    is_product: true
+    is_product_category: true
+    is_product_tag: true
+    is_cart: true
+    is_checkout: true
+    is_account_page: true

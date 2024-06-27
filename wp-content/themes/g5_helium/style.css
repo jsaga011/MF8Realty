@@ -1,0 +1,197 @@
+/*APPEARANCE*/
+/*G-NAVIGATION MENU*/
+#g-navigation{
+    background: #1a1c1f !important;
+	height: 117px;
+	border-bottom: 5px solid #efa601;
+}
+/*SOCMED*/
+.social-media{
+    margin-top: 10px;
+}
+/*HEADER*/
+#g-header{
+	margin-top: -4px !important;
+}
+.nev-menu{
+	
+	background: #000;
+}
+
+#menu-4076-particle, #menu-7641-particle, #menu-6569-particle,#menu-4816-particle, #menu-6319-particle,#menu-2721-particle, #menu-3695-particle{
+  	margin-left: 125px;
+    margin-top: 16px;
+}
+
+/*NAVIGATION LOGOLOGO*/
+
+.g-social{
+    text-align: left !important;
+    margin-top: 5px !important;
+}
+#logo-3134-particle, #logo-9608-particle, #logo-3313-particle, #logo-2134-particle, #logo-8599-particle,#logo-6131-particle, #logo-9604-particle, #logo-8427-particle{
+	margin-top: -4px;
+	width: 132px;
+    height: 125px;
+}
+#mysticky-nav{
+    top: 32px;
+    padding-top: 26px;
+}
+#sticky-menu{
+    display: flex;
+	margin-top: -21px;
+}
+.mail{
+    display: flex;
+}
+.mail img{
+    width: 50px;
+    height: 50px;
+}
+.mail h3{
+    line-height: 20px;
+    font-size: 18px;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+.Phone{
+    display: flex;
+	margin-left: 50px;
+}
+.Phone img{
+    width: 50px;
+    height: 50px;
+}
+.Phone h3{
+    line-height: 20px;
+    font-size: 18px;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+.location{
+    display: flex;
+	margin-left: 20px;
+}
+.location img{
+    width: 50px;
+    height: 50px;
+}
+.location h4{
+	line-height: 20px;
+    font-size: 18px;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+#home-title{
+	margin-left: -576px;
+    text-align: left;
+    margin-top: 141px;
+    line-height: 30px;
+}
+#home-title h1{
+    font-size: 60px;
+    line-height: 55px;
+}
+#home-title span{
+	color: #efa601;
+}
+#home-title p{
+	font-size: 18px;
+}
+#home-title h5{
+	background: #efa601;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    text-align: center;
+    width: 142px
+}
+
+/*PRODUCT*/
+.product_title{
+    line-height: 40px;
+    font-size: 50px;
+	color: #000;
+}
+.price {
+    font-size: 30px !important;
+    font-weight: 400 !important;
+    color: #ffc300 !important;
+}
+.single_add_to_cart_button{
+    background: #000 !important; 
+}
+
+.wc-block-components-totals-wrapper,.wc-block-components-totals-coupon{
+	display: none;
+}
+/*CheckOut*/
+.wc-block-components-button__text{
+    background: #000;
+    padding: 10px;
+    width: 100%;
+    color: #fff;
+}
+.wc-block-components-product-price__value{
+	display: none;
+}
+
+/*G FOOTER*/
+#g-footer{
+	height: 134px;
+    margin-top: -67px;
+}
+
+/*RESPONSIVE SMALL PHONE*/
+@media only all and (min-width: 320px) and (max-width: 428px){
+.g-offcanvas-toggle {
+    display: block;
+    margin-top: 3px;
+    margin-left: -10px;
+    position: absolute;
+    width: 100%;
+}
+#logo-3134-particle, #logo-9608-particle, #logo-3313-particle, #logo-2134-particle, #logo-8599-particle, #logo-6131-particle, #logo-9604-particle, #logo-8427-particle {
+    margin-top: -4px;
+    margin-left: 47px !important;
+    width: 132px;
+    height: 125px;
+}
+#sticky-menu {
+    display: none;
+}
+.social-media{
+	display: none;
+}
+#mysticky-nav{
+	display: none;	
+}	
+#home-title{
+	margin-left: -24px;
+	text-align: left;
+    margin-top: 21px;
+    line-height: 30px;
+}
+#home-title h1{
+    font-size: 25px;
+    line-height: 25px;
+}
+#home-title span{
+	color: #efa601;
+}
+#home-title p{
+	font-size: 18px;
+}
+#home-title h5{
+	display:none;
+}
+.has-luminous-vivid-amber-background-color {
+    background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+    margin-bottom: -65px;
+}
+}
+
